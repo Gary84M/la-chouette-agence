@@ -1792,7 +1792,8 @@ ol ol,
 ol ul,
 ul ol,
 ul ul {
-    margin-bottom: 0
+    margin-bottom: 0;
+    text-decoration: none;
 }
 
 .list-unstyled {
@@ -2328,7 +2329,7 @@ pre code {
         width: 41.66666667%
     }
     .col-sm-4 {
-        width: 33.33333333%
+        width: 100%
     }
     .col-sm-3 {
         width: 25%

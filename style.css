@@ -276,7 +276,23 @@ a:hover {
     margin-right: 0;
     margin-left: 0;
 }
+.footer-subtitle{
+    color: #FFF;
+    text-align: center;
+}
 
+.footer-partners{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+    
+
+    
+}
+li{
+    text-decoration: none;
+}
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
@@ -651,9 +667,12 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
-
+li a {
+    color: #FFF;
+    text-decoration: none;
+}
 .container {
     max-width: 1000px;
 }
