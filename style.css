@@ -285,14 +285,14 @@ a:hover {
     width: 90%;
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
     
+    flex-wrap: wrap;
+}
 
-    
+.footer-partners li{
+    margin: 1rem;
 }
-li{
-    text-decoration: none;
-}
+
 .row.row-no-gutters > [class^="col-"],
 .row.row-no-gutters > [class*=" col-"] {
     padding-right: 0;
@@ -668,6 +668,7 @@ a {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757;
+    
 }
 li a {
     color: #FFF;
@@ -740,6 +741,16 @@ h3 {
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
+@media (min-width: 658px){
+    .med-width-whitespace{
+        display: flex;
+    }
+    .text-center{
+        margin: 1rem;
+        text-align: center;
+    }
+}
+
 
 h1 {
     color: #333333!important;
@@ -1045,6 +1056,9 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+.quote{
+    text-align: center;
 }
 
 @media (max-width: 400px) {
