@@ -749,7 +749,7 @@ h3 {
         display: flex;
     }
     .text-center{
-        margin: 1rem;
+        
         text-align: center;
     }
 }
@@ -1078,4 +1078,8 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+.contact-deets{
+    display: flex;
+    justify-content: center;
 }
