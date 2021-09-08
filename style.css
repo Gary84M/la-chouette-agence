@@ -46,6 +46,8 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
+    
+    opacity: 1;
 }
 
 .bloc-md {
@@ -91,7 +93,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    
     background-size: 280px 280px;
 }
 
@@ -550,6 +552,7 @@ a[data-lightbox] {
     position: relative;
     display: block;
     text-align: center;
+
 }
 
 a[data-lightbox]:hover::before {
@@ -558,7 +561,7 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    margin-left: 110px;
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -675,7 +678,7 @@ li a {
     text-decoration: none;
 }
 .container {
-    max-width: 1000px;
+    max-width: 900px;
 }
 
 .hero-bloc-text {
@@ -697,7 +700,7 @@ li a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -753,7 +756,7 @@ h3 {
 
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
@@ -783,7 +786,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(112, 102, 75);
     padding: 40px 40px 40px 40px;
 }
 
@@ -805,7 +808,10 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #fff;
+}
+.text-center{
+    align-self: center;
 }
 
 .btn-atomic-tangerine {
