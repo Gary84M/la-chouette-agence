@@ -344,7 +344,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -545,7 +545,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 18px;
     opacity: 1;
 }
 
@@ -562,7 +562,8 @@ a[data-lightbox]:hover::before {
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: 110px;
+    margin-left: 120px;
+    
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
@@ -701,7 +702,7 @@ li a {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -719,7 +720,7 @@ p {
     color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -734,7 +735,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
