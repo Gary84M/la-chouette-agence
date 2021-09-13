@@ -1086,3 +1086,6 @@ h4 {
     display: flex;
     justify-content: center;
 }
+a:focus{
+    border: dashed orangered;
+}
